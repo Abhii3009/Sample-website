@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="Images/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+ 
+        </nav>
+        <h1>Our Certifications & Online Programs For 2024</h1>
+    </section>
+
+   
+
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="Images/blog1.jpg">
+                <h2>Our Certifications & Online Programs For 2024</h2>
+                <p>In our university, we pride ourselves on offering a diverse array of courses and online programs 
+                    designed to meet the evolving needs of today's students. Our curriculum spans various disciplines, 
+                    ensuring that every student can find a path that aligns with their interests and career aspirations. 
+                    Whether you're looking to delve into the arts, sciences, business, or technology, we provide a 
+                    comprehensive educational experience that equips you with the skills and knowledge necessary for success in the modern world.
+                </p>
+                <br>
+                <p>
+                    Our online programs are particularly notable for their flexibility and accessibility, allowing 
+                    students from all walks of life to pursue their educational goals. These programs are crafted with 
+                    the same rigorous standards as our on-campus offerings, ensuring a high-quality learning experience. 
+                    Through our online platform, students can engage in interactive coursework, participate in discussions, 
+                    and collaborate on projects, all from the comfort of their own homes. This format is ideal for working 
+                    professionals, parents, and anyone else needing a more adaptable schedule.
+                </p>
+                <br>
+                <p>
+                    In addition to traditional degree programs, we offer a range of certificate courses and professional 
+                    development opportunities. These short-term programs are designed to provide targeted skills and knowledge 
+                    in specific areas, such as project management, digital marketing, data science, and more. Our faculty, 
+                    composed of industry experts and seasoned educators, are dedicated to providing practical, hands-on learning 
+                    experiences that can be immediately applied in the workplace.
+                </p>
+                <br>
+                <p>
+                    We also emphasize the importance of holistic education, encouraging students to engage in extracurricular activities, 
+                    internships, and community service. Our career services department works closely with students to help them navigate 
+                    the job market, offering resume workshops, interview preparation, and networking events. By integrating academic 
+                    excellence with real-world experience, we ensure that our graduates are well-prepared to make significant contributions 
+                    to their chosen fields.
+                </p>
+                <br>
+                <p>
+                    Overall, our college is committed to fostering an inclusive and supportive learning environment. We continuously update 
+                    our course offerings and online programs to reflect the latest industry trends and technological advancements, ensuring 
+                    that our students are always at the forefront of innovation and leadership. Whether you are beginning your academic journey 
+                    or looking to advance your career, we have the resources and expertise to help you achieve your goals.
+                </p> 
+                <div class="comment-box">
+                    <h3>Leave a comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Your Comment"></textarea>
+                        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>    
+                    </form>
+                </div>   
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Data science</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>Machine learning</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>Computer science</span>
+                    <span>34</span>
+                </div><div>
+                    <span>AutoCad</span>
+                    <span>42</span>
+                </div>
+                <div>
+                    <span>Journalism</span>
+                    <span>22</span>
+                </div>
+                <div>
+                    <span>Commerce</span>
+                    <span>30</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Our campus is a dynamic environment that combines state-of-the-art facilities with a beautiful, serene setting, ideal for academic and personal. <br> It fosters a vibrant community where students can engage in diverse learning opportunities and extracurricular activities.</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+    </section>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showmenu(){
+            navLinks.style.right="0";
+        }
+        function hidemenu(){
+            navLinks.style.right="-300px";
+        }
+    </script>
+</body>
+</html>
